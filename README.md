@@ -6,35 +6,13 @@ you just hand it to ErrorExtractor and get back a string you can print to a log 
 
 ## Installation
 
-### Bundler 
+### Bundler
 
-Add to your Gemfile:  
+    gem 'error_extractor', '~> 0.1.0'
 
-    gem "error_extractor" github: "duskhacker/error-extractor.git"
+### Gem install
 
-Then run bundler: 
-
-    $ bundle
-
-### No Bundler 
-
-At some point I'll get this gem uploaded to rubygems.org, but in the mean time, you'll have to: 
-
-1. Clone the Git repository.
-
-    `$ git clone git://github.com/duskhacker/error-extractor.git`
-
-2. Change to the new directory.
-
-    `$ cd error-extractor`
-
-3. Build the gem 
-
-    `$ rake build` 
-
-4. Install the gem.
-   
-    `$ gem install pkg/error_extractor-[version].gem`
+    $ gem install error_extractor
 
 ## Usage
 
